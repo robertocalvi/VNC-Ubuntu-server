@@ -101,8 +101,9 @@ Quindi ricaricare il systemd manager e abilitare thevncservervncserver@1.service
 
 sudo systemctl daemon-reload
 sudo systemctl enable vncserver@1.service
-Riepilogo
 ```
+
+# Riepilogo
 
 In questo tutorial, abbiamo imparato come installare VNC su Ubuntu 20.04/18.04 LTS. VNC è un'implementazione multipiattaforma di Remote Desktop Server che utilizza il protocollo Remote Frame Buffer (RFB).
 
