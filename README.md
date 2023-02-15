@@ -1,1 +1,0 @@
-# VNC-Ubuntu-server
