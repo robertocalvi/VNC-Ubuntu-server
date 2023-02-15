@@ -58,7 +58,11 @@ L'utente ha bisogno di un VNC Viewer per connettersi a Ubuntu dal proprio comput
 
 client VNC del visualizzatore tigervnc
 
+![vnc-viewer](https://user-images.githubusercontent.com/20637640/219047945-af733f30-f7b5-4482-8d4e-4b00cd177f2a.jpeg)
+
 Inserisci l'indirizzo IP del tuo server Ubuntu e il numero di desktop VNC da collegare.
+
+![ubuntu-vnc-server](https://user-images.githubusercontent.com/20637640/219047592-ed8c646a-15b4-4e75-b69f-4c1e0768c4e9.jpeg)
 
 Installa VNC Server su Ubuntu
 
