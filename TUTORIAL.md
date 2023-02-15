@@ -97,8 +97,11 @@ ExecStop=/usr/bin/vncserver -kill :%i
 
 [Install]
 WantedBy=multi-user.target
-Quindi ricaricare il systemd manager e abilitare thevncservervncserver@1.service:
+```
 
+Quindi ricaricare il systemd manager e abilitare `vncservervncserver@1.service`:
+
+```
 sudo systemctl daemon-reload
 sudo systemctl enable vncserver@1.service
 ```
