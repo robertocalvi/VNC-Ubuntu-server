@@ -90,7 +90,7 @@ After=multi-user.target network.target
 
 [Service]
 Type=forking
-User=your_username
+User=```your_username```
 ExecStartPre=/bin/sh -c '/usr/bin/vncserver -kill :%i > /dev/null 2>&1 || :'
 ExecStart=/usr/bin/vncserver :%i -geometry 1366x768 -depth 24
 ExecStop=/usr/bin/vncserver -kill :%i
